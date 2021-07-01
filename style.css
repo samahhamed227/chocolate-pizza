@@ -11,6 +11,7 @@ header {
     
 }
 
+
 header div{
     display: inline-block;
 }
@@ -21,7 +22,7 @@ header div{
 header h1 {
     margin-bottom: 59px;
     position:absolute;
-    left:255px;
+    left:325px;
     font-family: 'Yellowtail', cursive;
     font-size: 37px;
     width: fit-content;
@@ -54,7 +55,7 @@ header nav ul li{
     margin-top: -20px;
 }
 
-li:nth-last-child(2) {
+header nav ul li:nth-last-child(2) {
     padding-left: 10px;
 
 }
@@ -88,8 +89,11 @@ main{
    margin-top: 5px;
 }
 
+
 #one h3 label{
     float: right;
+    padding-left: 638px;
+    padding-bottom:15px ;
     color: gray;
 }
 
@@ -130,8 +134,12 @@ font-size: 20px;
   
     text-align: left;
     padding-top: 10px;
+    padding-left: 10px;
 display: inline-block;
 margin-right: 265px;
+font-size: 20px;
+
+
 }
   button{
 float: right;
@@ -143,10 +151,13 @@ color: white;
 cursor: pointer;
 
 
-
 }
 
+div.bt{
+margin-top: -65px;
+margin-right: -5px;
 
+}
 #ul1 {
     float: left;
     margin-left: 150px;
@@ -161,12 +172,13 @@ cursor: pointer;
 	text-align:center;
 	border-bottom: 2px solid #CEC5BA;
 	line-height:0.1em;
-margin-top: 50px;
+margin-top: 90px;
 }
 .footer_bottom img {
 	position:absolute; 
     left:50%;
     margin-left:-10px;
+    
 }
 
 footer{
