@@ -134,7 +134,7 @@ font-size: 20px;
   
     text-align: left;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 5px;
 display: inline-block;
 margin-right: 265px;
 font-size: 20px;
@@ -154,8 +154,11 @@ cursor: pointer;
 }
 
 div.bt{
-margin-top: -65px;
-margin-right: -5px;
+margin-top: -2s50px;
+margin-right: 75px;
+padding-left: 10px;
+padding-bottom: 150px;
+margin-top: 100px;
 
 }
 #ul1 {
@@ -172,13 +175,12 @@ margin-right: -5px;
 	text-align:center;
 	border-bottom: 2px solid #CEC5BA;
 	line-height:0.1em;
-margin-top: 90px;
+margin-top: 70px;
 }
 .footer_bottom img {
 	position:absolute; 
     left:50%;
     margin-left:-10px;
-    
 }
 
 footer{
