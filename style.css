@@ -21,7 +21,7 @@ header div{
 header h1 {
     margin-bottom: 59px;
     position:absolute;
-    left:210px;
+    left:255px;
     font-family: 'Yellowtail', cursive;
     font-size: 37px;
     width: fit-content;
@@ -103,11 +103,73 @@ main{
 }
 
 #three {
-    margin-left: 300px;
-    background-image: url(list-bg.png);
-    height: 50px;
-    width: 960px;
+  height: 150px;
+    background-image: url("list-bg.png");
    
+}
+#four{
+    background-image: url("hr-img.png");
+    background-repeat: repeat-x;
+    width: 960px;
+}
+
+ h4{
+    float:left;
+left: 50px;
+margin-top: 20px;
+padding-left: 10px;
+font-family:'Abel', sans-serif;
+font-weight: bold;
+font-size: 20px;
+}
+
+#img2{
+ float: left;
+}
+#four pre{
+  
+    text-align: left;
+    padding-top: 10px;
+display: inline-block;
+margin-right: 265px;
+}
+  button{
+float: right;
+
+width: 200px;
+height: 50px;
+background-color:rgb(185, 58, 58);
+color: white;
+cursor: pointer;
+
+
 
 }
 
+
+#ul1 {
+    float: left;
+    margin-left: 150px;
+}
+#ul2 {
+    float:right;
+    margin-right: 150px;
+}
+
+.footer_bottom {
+	width:100%;
+	text-align:center;
+	border-bottom: 2px solid #CEC5BA;
+	line-height:0.1em;
+margin-top: 50px;
+}
+.footer_bottom img {
+	position:absolute; 
+    left:50%;
+    margin-left:-10px;
+}
+
+footer{
+    text-align: center;
+    color:gray;
+}
